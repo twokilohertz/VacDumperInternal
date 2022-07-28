@@ -5,8 +5,8 @@
 
 void* find_pattern(const uint8_t* pattern, size_t pattern_size, uintptr_t start_addr, size_t addr_range)
 {
-	bool found = false;
-	uintptr_t curr_addr = start_addr;
+	bool		found		= false;
+	uintptr_t	curr_addr	= start_addr;
 
 	// While not at the end of search area and the pattern has not been found
 	while (curr_addr <= start_addr + addr_range - 1 && !found)

@@ -60,7 +60,7 @@ int setup(HMODULE hModule)
 
 	while (true)
 	{
-		Sleep(5);
+		Sleep(5); // Probably a better way of doing this
 	}
 
 	// Done, remove hooks, close handles, exit thread
